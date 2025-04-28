@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcus Andreas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .fade-in {
+        animation: fadeIn 1.5s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+    <!-- Google Fonts for Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-white shadow sticky top-0 z-50" data-aos="fade-down">
+      <div
+        class="container mx-auto px-6 py-3 flex justify-between items-center"
+      >
+        <a class="text-xl font-bold" href="#">Marcus Andreas</a>
+        <div>
+          <a href="#about" class="px-3 py-2 hover:text-blue-600">About Me</a>
+          <a href="#services" class="px-3 py-2 hover:text-blue-600">Services</a>
+          <a href="#contact" class="px-3 py-2 hover:text-blue-600">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      class="bg-cover bg-top md:bg-center h-screen"
+      style="background-image: url(images/IMG_3424_jpg.JPG)"
+      data-aos="fade-in"
+    >
+      <div
+        class="flex items-end md:items-center justify-center h-full bg-gray-900 bg-opacity-50"
+      >
+        <div
+          class="text-center text-white fade-in px-4 pb-24 md:pb-0 max-w-md md:max-w-none mx-auto"
+        >
+          <h1 class="text-3xl md:text-5xl font-bold mb-4">
+            Are you ready to get results?
+          </h1>
+          <p class="text-base md:text-xl mb-8">
+            Your online coach and personal trainer for a healthier lifestyle
+          </p>
+          <a
+            href="#contact"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition-transform transform hover:scale-105"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="container mx-auto px-6 py-16" data-aos="fade-up">
+      <h2 class="text-4xl font-bold text-center mb-8">About Me</h2>
+      <div class="flex flex-col md:flex-row items-center">
+        <img
+          src="images/IMG_2347_jpg.JPG"
+          alt="Photo of Marcus Andreas"
+          class="w-96 h-96 object-cover object-center rounded-lg mx-auto mb-8 md:mb-0 shadow-lg"
+          data-aos="zoom-in"
+        />
+        <div class="md:ml-10 space-y-4">
+          <p class="text-lg">
+            Hi, I'm Marcus Andreas, a certified personal trainer and online
+            coach. I am passionate about helping you achieve your health and
+            fitness goals with tailored programs that suit your lifestyle.
+          </p>
+          <p
+            class="text-lg italic bg-gray-100 p-4 rounded"
+            data-aos="fade-left"
+          >
+            For me nutrition and getting an actual workout routine tailored to
+            me and my need the key to success. 3 years ago was when i decided
+            that i was tired of going to the gym every day and eating healthy
+            but my body just seemed to get worse. So it was time to change it
+            up! I started tracking my nutrition, doing research on what to
+            actually eat and just not assume. Got myself a proper workout plan
+            and made sure to always challenge myself and within 4 months I saw
+            good results and within 6 months I when from feeling bloated and a
+            bit chubby to having a Sixpack. So that is what I offer to help you
+            do the same. Or the other way around maybe you want to gain weight.
+            No matter the goal I’m here for you! And can’t say to start working
+            in your goals together
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-white py-16" data-aos="fade-up">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-8">What's your needs?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="p-8 bg-white rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-transform duration-300"
+            data-aos="fade-right"
+          >
+            <h3 class="text-2xl font-bold mb-3">Personal Training</h3>
+            <p>Custom training programs designed to maximize your results.</p>
+          </div>
+          <div
+            class="p-8 bg-white rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-transform duration-300"
+            data-aos="fade-up"
+          >
+            <h3 class="text-2xl font-bold mb-3">Online Coaching</h3>
+            <p>Flexible workout plans and nutrition guidance online.</p>
+          </div>
+          <div
+            class="p-8 bg-white rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-transform duration-300"
+            data-aos="fade-left"
+          >
+            <h3 class="text-2xl font-bold mb-3">Nutrition Counseling</h3>
+            <p>Personalized meal plans for optimal performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="bg-gray-50 py-16" data-aos="fade-up">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-4">Easy Communication with Zenfit</h2>
+        <p class="mb-8 text-lg">
+          Download the Zenfit app to stay connected and get updates on your
+          training.
+        </p>
+        <div
+          class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4"
+        >
+          <a
+            href="https://play.google.com/store/apps/details?id=io.zenfit.app"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+              alt="Get it on Google Play"
+              class="w-40 object-contain"
+            />
+          </a>
+          <a
+            href="https://apps.apple.com/app/zenfit/id123456789"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+              alt="Download on the App Store"
+              class="w-40 object-contain"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="container mx-auto px-6 py-16" data-aos="fade-up">
+      <h2 class="text-4xl font-bold text-center mb-8">Testimonials</h2>
+      <div class="space-y-8">
+        <div class="bg-white rounded-xl shadow-lg p-6" data-aos="fade-right">
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic">
+            <p>
+              “Marcus completely transformed my approach to fitness! I feel
+              stronger and healthier than ever before.”
+            </p>
+            <cite class="block mt-2">– Richard</cite>
+          </blockquote>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-6" data-aos="fade-left">
+          <blockquote class="border-l-4 border-blue-500 pl-4 italic">
+            <p>
+              “Through his online coaching, I gained the motivation I needed to
+              reach my goals. Highly recommended!”
+            </p>
+            <cite class="block mt-2">– Arne</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue-600 py-16" data-aos="fade-up">
+      <div class="container mx-auto px-6 text-white">
+        <h2 class="text-4xl font-bold text-center mb-8">Contact Me</h2>
+        <div
+          class="max-w-lg mx-auto flex justify-center space-x-8"
+          data-aos="fade-up"
+        >
+          <a
+            href="https://www.instagram.com/marcus.andreas_?igsh=cHBqMDlzcGIxZnYw"
+            target="_blank"
+            rel="noopener"
+            class="bg-white rounded-full p-4 shadow-lg hover:shadow-2xl transition-transform transform hover:scale-110"
+          >
+            <!-- Instagram Icon -->
+            <svg
+              class="h-8 w-8 text-pink-500"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5z"
+              />
+              <path
+                d="M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"
+              />
+            </svg>
+          </a>
+          <a
+            href="mailto:marcusandreas-99@hotmail.com"
+            class="bg-white rounded-full p-4 shadow-lg hover:shadow-2xl transition-transform transform hover:scale-110"
+            data-aos="fade-up"
+          >
+            <!-- Email Icon -->
+            <svg
+              class="h-8 w-8 text-blue-500"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.25 4A2.25 2.25 0 0 0 0 6.25v11.5A2.25 2.25 0 0 0 2.25 20h19.5A2.25 2.25 0 0 0 24 17.75V6.25A2.25 2.25 0 0 0 21.75 4H2.25zM1.5 6.25c0-.414.336-.75.75-.75h19.5c.414 0 .75.336.75.75v.638l-10.125 5.757L1.5 6.888V6.25zM1.5 8.039V17.75c0 .414.336.75.75.75h19.5a.75.75 0 0 0 .75-.75V8.04l-10.125 5.757L1.5 8.04z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6" data-aos="fade-up">
+      <div class="container mx-auto px-6 text-center text-white">
+        <p>&copy; 2025 Marcus Andreas. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
+  </body>
+</html>
